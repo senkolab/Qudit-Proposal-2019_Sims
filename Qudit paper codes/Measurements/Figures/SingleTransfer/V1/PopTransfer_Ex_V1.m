@@ -1,5 +1,5 @@
 clearvars
-addpath('..', '..\DrosteEffect-BrewerMap-b6a6efc', '..\altmany-export_fig-9502702' );
+addpath('..\Functions', '..\plotxx', '..\Figures', '..\DrosteEffect-BrewerMap-b6a6efc', '..\altmany-export_fig-9502702', '..\masumhabib-PlotPub-fe51157\lib','..\masumhabib-PlotPub-fe51157\examples' );
 %Constants of the experiment
 %Tau = 5;%5 Hz Linewidth
 Linewidth = 1;

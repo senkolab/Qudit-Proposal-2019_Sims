@@ -1,0 +1,19 @@
+Overall-Measurement2 
+Just assuming off-resonant coupling to a single level, and initial detuning 
+set at midway to that level
+
+Overall-Measurement3 and Population_Transfer_Adiabatic3 
+Assume off-resonant coupling to all levels, with clebsch gordan
+coefficients taken into account (incorrectly for different F's), and the detuning set 
+much closer to the nearest level
+
+Overall-Measurement4 has off-resonant coupling to all levels with correct clebsch gordan 
+coefficients
+
+5: F->F' coefficient added in, detuning increased to 200kHz away from nearest transition
+
+6: changed to 1.6MHz so we don't sweep through motional sideband
+
+7: Took into account motional sidebands as coherent adiabatic transitions at reduced rabi rates
+
+8: Added in motional sidebands from other transitions (not encodings)
